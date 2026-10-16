@@ -16,7 +16,7 @@ stow --adopt kitty kde-colors cursors
 # 3. Apply KDE theming
 if command -v plasma-apply-colorscheme &>/dev/null; then
   echo "Applying color scheme..."
-  plasma-apply-colorscheme IunoTheme
+  plasma-apply-colorscheme IunoColor
 fi
 
 if command -v plasma-apply-cursortheme &>/dev/null; then
